@@ -14,6 +14,6 @@ function countSameElements(collection) {
    map.forEach(function(key,value){
      res.push({key:value,count:key})
    });
-   console.log(res);
+  //  console.log(res);
    return res;
 }
