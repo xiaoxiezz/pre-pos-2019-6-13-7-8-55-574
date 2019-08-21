@@ -1,7 +1,7 @@
 'use strict';
 
 function collectSameElements(collectionA, collectionB) {
-  var result = new Array();
+  let result = [];
   collectionB=collectionB[0];
   for(var i = 0; i<collectionA.length ; i++)
   {
